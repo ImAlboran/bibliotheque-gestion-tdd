@@ -1,5 +1,12 @@
 package fr.alboran.bibliothequetdd;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@ToString
 public class Livre {
 
     private String id;
